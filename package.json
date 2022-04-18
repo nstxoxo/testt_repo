@@ -1,0 +1,18 @@
+{
+  "name": "teachmeskills2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comment": "tsc --removeComments",
+    "dir": "tsc --outDir compiled",
+    "version": "tsc -t es5"
+  },
+  "author": "Anastasia Mardovich",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
